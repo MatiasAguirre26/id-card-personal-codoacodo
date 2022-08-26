@@ -1,0 +1,30 @@
+/*VARIABLES*/
+
+:root {
+    --dark-color: #000000;
+    --white-color: #ffffff;
+    --orange-color: #FFB22A;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.jumbotron{
+	display: table;
+	min-height: 61rem;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: white;
+    margin-bottom: 0%;
+    background: linear-gradient(228.41deg, var(--dark-color), var(--orange-color));
+}
+
+span {
+    color: var(--orange-color);
+}
